@@ -1,6 +1,6 @@
 # Master Copy Evidence Verification Guide
 
-## Step 1: Verify Report Signature
+## Step 1: Verify Report Integrity (checksum)
 
 ```bash
 bash verify_signature.sh

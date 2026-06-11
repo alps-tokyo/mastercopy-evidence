@@ -1,6 +1,6 @@
-🔍 Verifying report signature...
+🔍 Verifying report integrity (checksum)...
 
-Expected:  9564a952b38192864e8f6df9a54910fa5efb2c66063400b8c9a412dd4358d266
-Computed:  9564a952b38192864e8f6df9a54910fa5efb2c66063400b8c9a412dd4358d266
+Expected:  f131253c79b3455ceb396c8ab727e460223943ae6b64dcb4040f1f184c3c1ab5
+Computed:  f131253c79b3455ceb396c8ab727e460223943ae6b64dcb4040f1f184c3c1ab5
 
-✅ Signature valid - Report is authentic and has not been tampered
+✅ Integrity OK — report.json matches its recorded checksum (corruption check passed)

@@ -1,8 +1,11 @@
 #!/bin/bash
-# Master Copy T2 Report Signature Verification
-# This script verifies that the report has not been tampered with.
+# Master Copy Report Integrity Check (checksum)
+# Verifies that report.json still matches its recorded SHA-256 checksum.
+# NOTE: this is a corruption check, NOT a cryptographic signature — it cannot
+# prove the issuer did not edit the file (anyone can recompute the hash).
+# The real independent anchors are the public GitHub Actions log + reproducible seed.
 
-echo "🔍 Verifying report signature..."
+echo "🔍 Verifying report integrity (checksum)..."
 echo ""
 
 # Check if jq is installed
@@ -16,7 +19,7 @@ fi
 SIGNATURE=$(jq -r '.signature.hash' report.json)
 
 if [ -z "$SIGNATURE" ] || [ "$SIGNATURE" = "null" ]; then
-    echo "❌ Error: No signature found in report"
+    echo "❌ Error: No checksum found in report"
     exit 1
 fi
 
@@ -29,9 +32,9 @@ echo "Computed:  $COMPUTED"
 echo ""
 
 if [ "$SIGNATURE" = "$COMPUTED" ]; then
-    echo "✅ Signature valid - Report is authentic and has not been tampered"
+    echo "✅ Integrity OK — report.json matches its recorded checksum (corruption check passed)"
     exit 0
 else
-    echo "❌ Signature invalid - Report may have been modified"
+    echo "❌ Integrity check failed — report.json does not match its recorded checksum"
     exit 1
 fi
