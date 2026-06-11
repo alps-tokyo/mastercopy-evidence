@@ -1,6 +1,6 @@
 {
-  "report_id": "EV-9BF0CCD4",
-  "generated_at": "2026-06-11T02:53:10Z",
+  "report_id": "EV-EA975FCE",
+  "generated_at": "2026-06-11T03:16:50Z",
   "version": "0.9.0",
   "mode": "synthetic",
   "paths": {
@@ -44,8 +44,8 @@
     "matrix_sha256": "8c4cd6c7f8e746039005d1cde058842d516290b41d3002e765888159fe696148"
   },
   "mhl": {
-    "status": "WARN",
-    "ascmhl_verify": false
+    "status": "PASS",
+    "ascmhl_verify": true
   },
   "cross_checks": {
     "rsync": {
@@ -66,7 +66,7 @@
       "hashdeep": "4.4",
       "xxhsum": "xxhsum 0.8.3 by Yann Collet ",
       "rsync": "openrsync: protocol version 29",
-      "ascmhl": "not installed"
+      "ascmhl": "ascmhl, version 1.2"
     }
   },
   "verification": {
@@ -76,7 +76,7 @@
   },
   "signature": {
     "algorithm": "SHA-256",
-    "generated_at": "2026-06-11T02:53:10Z",
-    "hash": "fe4930f63e0cda26788f17e742c1c795040c0f0ac20c15fb966090fe7a9e3349"
+    "generated_at": "2026-06-11T03:16:50Z",
+    "hash": "9564a952b38192864e8f6df9a54910fa5efb2c66063400b8c9a412dd4358d266"
   }
 }
