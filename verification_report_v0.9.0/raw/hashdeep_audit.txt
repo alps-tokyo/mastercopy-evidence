@@ -1,6 +1,6 @@
-hashdeep: Audit failed
+hashdeep: Audit passed
           Files matched: 5005
 Files partially matched: 0
             Files moved: 0
-        New files found: 2
+        New files found: 0
   Known files not found: 0

@@ -1,12 +1,12 @@
 {
-  "os": "ProductName:\t\tmacOS ProductVersion:\t\t26.4.1 BuildVersion:\t\t25E253",
-  "cpu": "Apple M3 Max",
+  "os": "ProductName:\t\tmacOS ProductVersion:\t\t15.7.7 BuildVersion:\t\t24G720",
+  "cpu": "Apple M1 (Virtual)",
   "machine": "arm64",
   "tools": {
-    "swift": "Apple Swift version 6.3.2 (swiftlang-6.3.2.1.108 clang-2100.1.1.101)",
+    "swift": "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)",
     "hashdeep": "4.4",
     "xxhsum": "xxhsum 0.8.3 by Yann Collet ",
-    "rsync": "rsync  version 3.4.1  protocol version 32",
-    "ascmhl": "ascmhl, version 1.0.1"
+    "rsync": "openrsync: protocol version 29",
+    "ascmhl": "not installed"
   }
 }
