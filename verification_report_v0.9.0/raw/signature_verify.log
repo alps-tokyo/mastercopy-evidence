@@ -1,6 +1,0 @@
-🔍 Verifying report integrity (checksum)...
-
-Expected:  3d9e09df1a06ed7c3065ffd90bc0ab683f938c68ec2662e594d8486817f020ef
-Computed:  3d9e09df1a06ed7c3065ffd90bc0ab683f938c68ec2662e594d8486817f020ef
-
-✅ Integrity OK — report.json matches its recorded checksum (corruption check passed)

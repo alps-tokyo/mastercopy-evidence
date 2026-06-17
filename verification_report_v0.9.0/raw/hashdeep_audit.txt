@@ -1,6 +1,0 @@
-hashdeep: Audit failed
-          Files matched: 5005
-Files partially matched: 0
-            Files moved: 0
-        New files found: 2
-  Known files not found: 0
