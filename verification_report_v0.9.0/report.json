@@ -1,0 +1,82 @@
+{
+  "report_id": "EV-6969C9D1",
+  "generated_at": "2026-06-17T12:04:46Z",
+  "version": "0.9.0",
+  "mode": "synthetic",
+  "paths": {
+    "source": "<work>/source",
+    "destination": "<work>/destination",
+    "copied_root": "<work>/destination/source"
+  },
+  "dataset": {
+    "profile": "actions",
+    "seed": "42",
+    "file_count": 5005,
+    "total_bytes": 1071558657
+  },
+  "independent_audit": {
+    "tool": "hashdeep 4.4",
+    "algorithm": "SHA-256",
+    "match": 5005,
+    "mismatch": 0,
+    "missing": 0,
+    "new": 0,
+    "all_match": true
+  },
+  "corruption_detection": {
+    "faults_status": "PASS",
+    "verifyproof_status": "PASS",
+    "faults_scenarios_passed": true,
+    "verifyproof_three_way": true
+  },
+  "test2_corruption": {
+    "status": "PASS",
+    "k": 10,
+    "false_positives": 0,
+    "tools_agree": true,
+    "per_tool_detected": {
+      "mastercopy": 10,
+      "hashdeep": 10,
+      "xxhsum": 10,
+      "sha256": 10,
+      "ascmhl": 0
+    },
+    "matrix_sha256": "8c4cd6c7f8e746039005d1cde058842d516290b41d3002e765888159fe696148"
+  },
+  "mhl": {
+    "status": "PASS",
+    "ascmhl_verify": true
+  },
+  "cross_checks": {
+    "rsync": {
+      "status": "PASS",
+      "pass": true
+    },
+    "xxhsum": {
+      "status": "PASS",
+      "pass": true
+    }
+  },
+  "environment": {
+    "os": "ProductName:\t\tmacOS ProductVersion:\t\t15.7.7 BuildVersion:\t\t24G720",
+    "cpu": "Apple M1 (Virtual)",
+    "machine": "arm64",
+    "tools": {
+      "swift": "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)",
+      "hashdeep": "4.4",
+      "xxhsum": "xxhsum 0.8.3 by Yann Collet ",
+      "rsync": "openrsync: protocol version 29",
+      "ascmhl": "ascmhl, version 1.2"
+    }
+  },
+  "verification": {
+    "algorithm": "SHA-256",
+    "all_hashes_match": true,
+    "verification_tool": "hashdeep 4.4"
+  },
+  "signature": {
+    "algorithm": "SHA-256",
+    "generated_at": "2026-06-17T12:04:46Z",
+    "hash": "3d9e09df1a06ed7c3065ffd90bc0ab683f938c68ec2662e594d8486817f020ef"
+  }
+}
