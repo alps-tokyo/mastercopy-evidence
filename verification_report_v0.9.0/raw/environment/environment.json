@@ -1,0 +1,12 @@
+{
+  "os": "ProductName:\t\tmacOS ProductVersion:\t\t15.7.7 BuildVersion:\t\t24G720",
+  "cpu": "Apple M1 (Virtual)",
+  "machine": "arm64",
+  "tools": {
+    "swift": "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)",
+    "hashdeep": "4.4",
+    "xxhsum": "xxhsum 0.8.3 by Yann Collet ",
+    "rsync": "openrsync: protocol version 29",
+    "ascmhl": "ascmhl, version 1.2"
+  }
+}
